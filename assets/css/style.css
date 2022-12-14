@@ -4,6 +4,29 @@
 }
 
 
-button {
-    border: solid black !important;
+#profile-pic {
+    margin-left: 44%;
+}
+
+
+/*
+<a id="imageAppH" href="https://dessysi.github.io/horiseon-code-refactor-by-desislavaivanova/" target="_blank" alt="link to Horision" title="link to Horision">
+<img src="./assets/images/Horiseon_wabpage.jpg" class="card-img-top" alt="...">
+
+<a id="imageApp1" href="./assets/apps/index_app1.html" target="_blank" alt="link to draftApp1" title="link to draftApp1">
+<img src="./assets/images/imgApp01.jpg" class="card-img-top" alt="draft" title="draft">
+
+<a id="imageApp2" href="./assets/apps/index_app2.html" target="_blank" alt="link to draftApp2" title="link to draftApp2">
+<img src="./assets/images/imgApp02.jpg" class="card-img-top" alt="draft" title="draft">
+
+ <a id="imageApp3" href="./assets/apps/index_app3.html" target="_blank" alt="link to draftApp3" title="link to draftApp3">
+ <img src="./assets/images/imgApp03.jpg" class="card-img-top" alt="draft" title="draft">
+
+ <a id="imageApp4" href="./assets/apps/index_app4.html" target="_blank" alt="link to draftApp4" title="link to draftApp4">
+  <img src="./assets/images/imgApp04.jpg" class="card-img-top" alt="draft" title="draft">
+  
+*/
+
+.hero-container {
+align-content: flex-end;
 }

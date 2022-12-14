@@ -15,16 +15,16 @@
             <span class="navbar-brand mb-0 h1">edX Student</span>
             <ul class="nav justify-content-end">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About me</a>
-                </li>
-                <li class="nav-item">
                   <a class="nav-link" href="#">Projects</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contacts</a>
+                  <a class="nav-link" href="#">About me</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Resume</a>
+                  <a class="nav-link" href="#">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacts</a>
                 </li>
               </ul>
               <button type="button" class="btn btn-light btn-sm">
@@ -34,101 +34,111 @@
 
           <!--header jumbotron-->
         <header class="container-fluid">
-
           <div class="jumbotron text-center jumbotron-fluid bg-light">
-            <div class="container-fluid">
-                <div class="row">
-                    <div>
-                      <div class="card" style="width: 12rem;">
+                      <div class="card" id="profile-pic" style="width: 16rem;">
                         <img src="./assets/images/profilePic.jpg" class="card-img-top" alt="portfolio picture">
                       <div class="card-body">
                         <p class="card-text">Desislava Ivanova</p>
                     </div>
-                </div>
-            </div>
-                <div class="text-center ">
-                  <p class="lead pull-right">
-                    This is a draft version of my portfolio.
-                  </p>
-                </div>
-              </div>
+          
             </div>
           </div>
         </header>  
 
-        <!--work-section-Grid-->
-        <h1>My Work</h1>
-        <div class="container">
-            <div class="row">
+        <!--work-section-Grid A work section
 
+A section displaying your work in grid.
+
+If you need to use placeholder image use placehold.coLinks to an external site.
+
+Use Bootstrap cards for each project.
+
+The description should give a brief overview of the work.
+
+Each project will eventually link to your class project work!-->
+        <div class="container-fluid" id="hero-container">
+          <div class="row" id="hero-row">
+            <div class="col-6" >
               <a id="imageAppH" href="https://dessysi.github.io/horiseon-code-refactor-by-desislavaivanova/" target="_blank" alt="link to Horision" title="link to Horision">
-                <div class="card" style="width: 100%">
+                <div class="card">
                     <img src="./assets/images/Horiseon_wabpage.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <p class="card-text">Code Refactor</p>
+                      <p class="card-text">The main focus of "Code Refactor" project was accessibility improvement, light boost on the performance, provided with clear comments after every change in both HTML and CSS files, due to possibile upcoming changes. On this stage I have implemented "meta name='keywords'" and "meta name='viewport'" in order to boost the accessibility, fully semantic structured HTML file, reordered and combined CSS selectors, which improves the performance. I've also fixed the navigation link for "Search Engine Optimization" and it now leads to the corresponding article on the app.</p>
                     </div>
                   </div>
                 </a>
-    
+            </div>
+            <div class="col-6 container">
+              <div class="row card-columns">
+                <div class="col-8">
+                  <a id="imageApp1" href="./assets/apps/index_app1.html" target="_blank" alt="link to draftApp1" title="link to draftApp1">
+                    <div class="card">
+                        <img src="./assets/images/imgApp01.jpg" class="card-img-top" alt="draft" title="draft">
+                        <div class="card-body">
+                          <p class="card-text">draftApp1</p>
+                        </div>
+                    </div>
+                  </a>               
+                </div>
+                <div class="col-8">
+                  <a id="imageApp2" href="./assets/apps/index_app2.html" target="_blank" alt="link to draftApp3" title="link to draftApp2">
+                    <div class="card">
+                      <img src="./assets/images/imgApp02.jpg" class="card-img-top" alt="draft" title="draft">
+                        <div class="card-body">
+                          <p class="card-text">draftApp2</p>
+                        </div>
+                    </div>
+                  </a> 
+                </div>
              
-            </div>
-            <div class="row">
-              <div class="col">
-                1 of 2
-                <a id="imageApp1" href="./assets/apps/index_app1.html" target="_blank" alt="link to draftApp1" title="link to draftApp1">
-                <div class="card" style="width: 50%;">
-                    <img src="./assets/images/imgApp01.jpg" class="card-img-top" alt="draft" title="draft">
-                    <div class="card-body">
-                      <p class="card-text">draftApp1</p>
-                    </div>
-              
+              <div class="col-12 container">
+                <div class="row card-columns">
+                  <div class="col-8">
+                    <a id="imageApp3" href="./assets/apps/index_app3.html" target="_blank" alt="link to draftApp3" title="link to draftApp3">
+                      <div class="card">
+                        <img src="./assets/images/imgApp03.jpg" class="card-img-top" alt="draft" title="draft">
+                          <div class="card-body">
+                            <p class="card-text">draftApp3</p>
+                          </div>
+                      </div>
+                    </a>               
                   </div>
-                </a>
-              </div>
-              <div class="col">
-                2 of 2
-                <a id="imageApp2" href="./assets/apps/index_app2.html" target="_blank" alt="link to draftApp2" title="link to draftApp2">
-                <div class="card" style="width: 50%;">
-                    <img src="./assets/images/imgApp02.jpg" class="card-img-top" alt="draft" title="draft">
-                    <div class="card-body">
-                      <p class="card-text">draftApp2</p>
-                    </div>
+                  <div class="col-8">
+                    <a id="imageApp4" href="./assets/apps/index_app4.html" target="_blank" alt="link to draftApp4" title="link to draftApp4">
+                      <div class="card">
+                        <img src="./assets/images/imgApp04.jpg" class="card-img-top" alt="draft" title="draft">
+                          <div class="card-body">
+                            <p class="card-text">draftApp4</p>
+                          </div>
+                      </div>
+                    </a> 
                   </div>
-               
-              </div>
-            </a>
-            </div>
-            <div class="row">
-                <div class="col">
-                  1 of 2
-                  <a id="imageApp3" href="./assets/apps/index_app3.html" target="_blank" alt="link to draftApp3" title="link to draftApp3">
-                  <div class="card" style="width: 18rem;">
-                    <img src="./assets/images/imgApp03.jpg" class="card-img-top" alt="draft" title="draft">
-                    <div class="card-body">
-                      <p class="card-text">draftApp3</p>
-                    </div>
-                   
-                  </div>
-                </a>
                 </div>
-                <div class="col">
-                  2 of 2
-                  <a id="imageApp4" href="./assets/apps/index_app4.html" target="_blank" alt="link to draftApp4" title="link to draftApp4">
-                  <div class="card" style="width: 18rem;">
-                    <img src="./assets/images/imgApp04.jpg" class="card-img-top" alt="draft" title="draft">
-                    <div class="card-body">
-                      <p class="card-text">draftApp4</p>
-                    </div>
-                  </div>
-                </a>
                 </div>
-              </div>
-          </div>
-        <!--skills section-->
-<h1>Skills</h1>
 
- <!--An about/contact section-->
- <h1></h1>
+
+
+   
+       
+        <!--A skills section
+
+List out the skills you expect to learn from the bootcamp.-->
+
+
+
+
+        <!--An about/contact section
+
+An About Me section in the same row.-->
+
+
+
+
+        <!--A footer section
+
+All hyperlinks should have a hover effect.
+
+All buttons should display a box shadow upon hover.-->
 
 
     </body>
