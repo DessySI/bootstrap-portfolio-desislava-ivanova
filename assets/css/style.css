@@ -1,12 +1,15 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Courier New;
+    
+}
+
+body {
+    background-image: linear-gradient(to right top, #e5be65, #b1c977, #84cc9b, #6ac9bd, #74c2d2, #7ec2d8, #89c3dc, #94c3df, #8dcee6, #87d9eb, #84e4eb, #87eee8);
 }
 
 
-#profile-pic {
-    margin-left: 44%;
-}
 
 
 /*
@@ -27,6 +30,14 @@
   
 */
 
-.hero-container {
-align-content: flex-end;
+nav, h3 {
+    backface-visibility: hidden;
+    text-shadow: 5px 5px 10px black;
 }
+
+.card,.btn {
+    text-shadow: 5px 5px 10px black;
+    border: none;
+}
+
+

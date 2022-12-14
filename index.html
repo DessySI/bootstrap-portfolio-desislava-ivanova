@@ -11,8 +11,8 @@
     
     <body>
         <!--Navigation bar-->
-        <nav class="navbar navbar-light bg-light navbar-toggle">
-            <span class="navbar-brand mb-0 h1">edX Student</span>
+        <nav class="navbar nav-tabs navbar-light bg-transparent navbar-toggle">
+            <span class="navbar-brand justify-content-end mb-0 h1 font-weight-bold">edX Student</span>
             <ul class="nav justify-content-end">
                 <li class="nav-item">
                   <a class="nav-link" href="#">Projects</a>
@@ -26,24 +26,26 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">Contacts</a>
                 </li>
+                <button type="button" class="btn btn-light bg-transparent btn-sm">
+                  <a class="color-white" href="./assets/CV_Desislava Ivanova.docx" alt="download resume" title="download resume" download>Download Resume</a>
+              </button>
               </ul>
-              <button type="button" class="btn btn-light btn-sm">
-                <a class="color-white" href="./assets/CV_Desislava Ivanova.docx" alt="download resume" title="download resume" download>Download Resume</a>
-            </button>
+            
           </nav>
 
           <!--header jumbotron-->
-        <header class="container-fluid">
-          <div class="jumbotron text-center jumbotron-fluid bg-light">
-                      <div class="card" id="profile-pic" style="width: 16rem;">
-                        <img src="./assets/images/profilePic.jpg" class="card-img-top" alt="portfolio picture">
+        <header class="container-fluid mb-0">
+          <div class="jumbotron bg-transparent text-center jumbotron-fluid">
+                      <div class="card bg-transparent" id="profile-pic" style="width: 16rem;">
+                        <img class="rounded-circle shadow-lg p-1 bg-light rounded" src="./assets/images/profilePic.jpg" class="card-img-top" alt="portfolio picture">
                       <div class="card-body">
-                        <p class="card-text">Desislava Ivanova</p>
+                        <h4>Desislava Ivanova</h4>
                     </div>
           
             </div>
           </div>
         </header>  
+
 
         <!--work-section-Grid A work section
 
@@ -56,6 +58,10 @@ Use Bootstrap cards for each project.
 The description should give a brief overview of the work.
 
 Each project will eventually link to your class project work!-->
+<section class="work mb-1">
+  <div class="jumbotron bg-transparent text-start jumbotron-fluid">
+    <div class="container">
+      <h3 class="display-4">My Work</h3>
         <div class="container-fluid" id="hero-container">
           <div class="row" id="hero-row">
             <div class="col-6" >
@@ -63,14 +69,14 @@ Each project will eventually link to your class project work!-->
                 <div class="card">
                     <img src="./assets/images/Horiseon_wabpage.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <p class="card-text">The main focus of "Code Refactor" project was accessibility improvement, light boost on the performance, provided with clear comments after every change in both HTML and CSS files, due to possibile upcoming changes. On this stage I have implemented "meta name='keywords'" and "meta name='viewport'" in order to boost the accessibility, fully semantic structured HTML file, reordered and combined CSS selectors, which improves the performance. I've also fixed the navigation link for "Search Engine Optimization" and it now leads to the corresponding article on the app.</p>
+                      <p class="card-text">The main focus of "Code Refactor" project was accessibility improvement, light boost on the performance, provided with clear comments after every change in both HTML and CSS files, due to possibile upcoming changes. On this stage I have implemented "meta name='keywords'" and "meta name='viewport'" in order to boost the accessibility, fully semantic structured HTML file, reordered and combined CSS selectors, which improves the performance.</p>
                     </div>
                   </div>
                 </a>
             </div>
             <div class="col-6 container">
               <div class="row card-columns">
-                <div class="col-8">
+                <div class="circle">
                   <a id="imageApp1" href="./assets/apps/index_app1.html" target="_blank" alt="link to draftApp1" title="link to draftApp1">
                     <div class="card">
                         <img src="./assets/images/imgApp01.jpg" class="card-img-top" alt="draft" title="draft">
@@ -80,7 +86,7 @@ Each project will eventually link to your class project work!-->
                     </div>
                   </a>               
                 </div>
-                <div class="col-8">
+                <div class="circle">
                   <a id="imageApp2" href="./assets/apps/index_app2.html" target="_blank" alt="link to draftApp3" title="link to draftApp2">
                     <div class="card">
                       <img src="./assets/images/imgApp02.jpg" class="card-img-top" alt="draft" title="draft">
@@ -90,10 +96,8 @@ Each project will eventually link to your class project work!-->
                     </div>
                   </a> 
                 </div>
-             
-              <div class="col-12 container">
-                <div class="row card-columns">
-                  <div class="col-8">
+            
+                  <div class="circle">
                     <a id="imageApp3" href="./assets/apps/index_app3.html" target="_blank" alt="link to draftApp3" title="link to draftApp3">
                       <div class="card">
                         <img src="./assets/images/imgApp03.jpg" class="card-img-top" alt="draft" title="draft">
@@ -103,7 +107,7 @@ Each project will eventually link to your class project work!-->
                       </div>
                     </a>               
                   </div>
-                  <div class="col-8">
+                  <div class="circle">
                     <a id="imageApp4" href="./assets/apps/index_app4.html" target="_blank" alt="link to draftApp4" title="link to draftApp4">
                       <div class="card">
                         <img src="./assets/images/imgApp04.jpg" class="card-img-top" alt="draft" title="draft">
@@ -112,9 +116,12 @@ Each project will eventually link to your class project work!-->
                           </div>
                       </div>
                     </a> 
-                  </div>
+                  
                 </div>
-                </div>
+                
+              </div>
+            </div>
+              </section>
 
 
 
@@ -123,24 +130,58 @@ Each project will eventually link to your class project work!-->
         <!--A skills section
 
 List out the skills you expect to learn from the bootcamp.-->
-
-
+<section class="skills container">
+<div class="jumbotron jumbotron-fluid bg-transparent">
+  <div class="container-fluid">
+    <h3 class="display-4">My Skills</h3>
+    <p class="lead">HTML   CSS   Bootstrap   Marketing   Management</p>
+  </div>
+</div>
+</section>
 
 
         <!--An about/contact section
 
 An About Me section in the same row.-->
+ <section class="about-contact container">
+    <div class="jumbotron bg-transparent">
+      <div class="container-fluid">
+    <div class="row">
+ <div class="card-deck">
+  <div class="card">
+    <div class="card-body">
+      <h4 class="card-title">About me</h4>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h4 class="card-title">Contact Me</h4>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+    </div>
+  </div>
+</div>
+</div>
+</section>
 
 
-
-
-        <!--A footer section
-
-All hyperlinks should have a hover effect.
+        <!--A footer section All hyperlinks should have a hover effect.
 
 All buttons should display a box shadow upon hover.-->
+  <footer class="mt-auto">
+    <ul class="nav justify-content-center">
+          <li class="nav-item">
+              <a class="nav-link active" href="#!">GitHub</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#!">LinkedIn</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#!">Facebook</a>
+          </li>
+    </ul>
+  </footer>
 
-
-    </body>
+  </body>
 </html>
        
