@@ -1,11 +1,12 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    
     font-family: Courier New;
     
 }
 
 body {
+   margin: 0px;
+   padding: 0px;
    background-image: linear-gradient(to right top, #e5cf9e, #ccd8ac, #baddc2, #b5ded6, #bddde2, #bedae2, #c0d7e1, #c2d4df, #b6d0da, #aaccd4, #9ec8cb, #95c4c1);
 }
 
@@ -53,6 +54,6 @@ button:hover {
     width: 100% auto;
 }
 
-.skills {
-    margin-left: 40%;
+.skills h3, .skills p {
+ text-align: center;
 }
