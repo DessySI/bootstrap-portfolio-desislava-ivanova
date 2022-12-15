@@ -18,9 +18,14 @@ a:hover {
     text-shadow: none ;
   }
 
-a {
-    text-shadow: 5px 5px 10px black;
+a, p {
+    text-shadow: 5px 5px 10px rgb(60, 60, 99);
     border: none;
+
+}
+
+.work a {
+     color: black;
 }
 
 .navbar-brand {
@@ -34,20 +39,20 @@ button:hover {
 
 #profile-pic {
     border: none;
-    margin-left: 37%;
     text-shadow: 5px 5px 10px black;
 }
 
 #profile-text {
 
     font-size: 18px;
-    text-shadow: 5px 5px 10px black;
-    text-align: justify;
-    width: 200%;
+    text-align: center;
 }
 
-.skills {margin-left: 40%;}
 
-img:hover {
-    
+.container {
+    width: 100% auto;
+}
+
+.skills {
+    margin-left: 40%;
 }
