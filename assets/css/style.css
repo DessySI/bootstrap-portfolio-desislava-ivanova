@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: linear-gradient(to right top, #e5be65, #b1c977, #84cc9b, #6ac9bd, #74c2d2, #7ec2d8, #89c3dc, #94c3df, #8dcee6, #87d9eb, #84e4eb, #87eee8);
+   background-image: linear-gradient(to right top, #e5cf9e, #ccd8ac, #baddc2, #b5ded6, #bddde2, #bedae2, #c0d7e1, #c2d4df, #b6d0da, #aaccd4, #9ec8cb, #95c4c1);
 }
 
 
@@ -40,4 +40,8 @@ nav, h3 {
     border: none;
 }
 
+.navbar-brand {
+    margin-bottom: 50px;
+    width: 7%;
+}
 
