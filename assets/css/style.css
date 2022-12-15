@@ -9,31 +9,14 @@ body {
    background-image: linear-gradient(to right top, #e5cf9e, #ccd8ac, #baddc2, #b5ded6, #bddde2, #bedae2, #c0d7e1, #c2d4df, #b6d0da, #aaccd4, #9ec8cb, #95c4c1);
 }
 
-
-
-
-/*
-<a id="imageAppH" href="https://dessysi.github.io/horiseon-code-refactor-by-desislavaivanova/" target="_blank" alt="link to Horision" title="link to Horision">
-<img src="./assets/images/Horiseon_wabpage.jpg" class="card-img-top" alt="...">
-
-<a id="imageApp1" href="./assets/apps/index_app1.html" target="_blank" alt="link to draftApp1" title="link to draftApp1">
-<img src="./assets/images/imgApp01.jpg" class="card-img-top" alt="draft" title="draft">
-
-<a id="imageApp2" href="./assets/apps/index_app2.html" target="_blank" alt="link to draftApp2" title="link to draftApp2">
-<img src="./assets/images/imgApp02.jpg" class="card-img-top" alt="draft" title="draft">
-
- <a id="imageApp3" href="./assets/apps/index_app3.html" target="_blank" alt="link to draftApp3" title="link to draftApp3">
- <img src="./assets/images/imgApp03.jpg" class="card-img-top" alt="draft" title="draft">
-
- <a id="imageApp4" href="./assets/apps/index_app4.html" target="_blank" alt="link to draftApp4" title="link to draftApp4">
-  <img src="./assets/images/imgApp04.jpg" class="card-img-top" alt="draft" title="draft">
-  
-*/
-
 nav, h3 {
     backface-visibility: hidden;
     text-shadow: 5px 5px 10px black;
 }
+
+nav:hover {
+    text-shadow: none ;
+  }
 
 .card,.btn {
     text-shadow: 5px 5px 10px black;
@@ -41,7 +24,6 @@ nav, h3 {
 }
 
 .navbar-brand {
-    margin-bottom: 50px;
+    margin-bottom: 5px;
     width: 7%;
 }
-

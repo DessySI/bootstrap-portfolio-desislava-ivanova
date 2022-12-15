@@ -15,16 +15,16 @@
             <span class="navbar-brand justify-content-end mb-0 h1 font-weight-bold">edX Student</span>
             <ul class="nav justify-content-end">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Projects</a>
+                  <a class="nav-link" href="#work">Projects</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About me</a>
+                  <a class="nav-link" href="#about/contacts">About me</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Skills</a>
+                  <a class="nav-link" href="#skills">Skills</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contacts</a>
+                  <a class="nav-link" href="#about/contacts">Contacts</a>
                 </li>
                 <button type="button" class="btn btn-light bg-transparent btn-sm">
                   <a class="color-white" href="./assets/CV_Desislava Ivanova.docx" alt="download resume" title="download resume" download>Download Resume</a>
@@ -35,16 +35,19 @@
 
           <!--header jumbotron-->
         <header class="container-fluid mb-0">
-          <div class="jumbotron bg-transparent text-center jumbotron-fluid">
-                      <div class="card bg-transparent" id="profile-pic" style="width: 16rem;">
+          <div class="bg-transparent text-center jumbotron-fluid">
+            <div class="row">
+                      <div class="card bg-transparent col-2" id="profile-pic" style="width: 16rem;">
                         <img class="rounded-circle shadow-lg p-1 bg-light rounded" src="./assets/images/profilePic.jpg" class="card-img-top" alt="portfolio picture">
-                      <div class="card-body">
                         <h4>Desislava Ivanova</h4>
-                    </div>
-          
+                      </div>
+                      <div class="card-body">
+                        <p class="lead col-6">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                      </div>           
             </div>
           </div>
         </header>  
+        <hr class="my-4">     
 
 
         <!--work-section-Grid A work section
@@ -58,7 +61,7 @@ Use Bootstrap cards for each project.
 The description should give a brief overview of the work.
 
 Each project will eventually link to your class project work!-->
-<section class="work mb-1">
+<section class="work mb-1" id="work">
   <div class="jumbotron bg-transparent text-start jumbotron-fluid">
     <div class="container">
       <h3 class="display-4">My Work</h3>
@@ -122,6 +125,7 @@ Each project will eventually link to your class project work!-->
               </div>
             </div>
               </section>
+              <hr class="my-4">  
 
 
 
@@ -130,37 +134,38 @@ Each project will eventually link to your class project work!-->
         <!--A skills section
 
 List out the skills you expect to learn from the bootcamp.-->
-<section class="skills container">
+<section class="skills container" id="skills">
 <div class="jumbotron jumbotron-fluid bg-transparent">
   <div class="container-fluid">
     <h3 class="display-4">My Skills</h3>
     <p class="lead">
-      <img src="./assets/logo_images/html-5.svg"> HTML  <img src="./assets/logo_images/css3.svg">  CSS  <img src="./assets/logo_images/bootstrap.svg"> Bootstrap <img src="./assets/logo_images/marketing.png">  Marketing  <img src="./assets/logo_images/management.png">  Management
-
+      <img src="./assets/logo_images/html-5.svg" title="HTML" alt="HTML logo">   <img src="./assets/logo_images/css3.svg" title="CSS" alt="CSS logo">    <img src="./assets/logo_images/bootstrap.svg" title="Bootstrap" alt="bootstrap logo">   <img src="./assets/logo_images/marketing.png" title="marketing" alt="Marketing logo">     <img src="./assets/logo_images/management.png" title="management" alt="Management logo">  
     </p>
   </div>
 </div>
 </section>
 
+<hr class="my-4">  
+
 
         <!--An about/contact section
 
 An About Me section in the same row.-->
- <section class="about-contact container">
+ <section class="about-contact container" id="about/contacts" >
     <div class="jumbotron bg-transparent">
       <div class="container-fluid">
     <div class="row">
  <div class="card-deck">
   <div class="card">
     <div class="card-body">
-      <h4 class="card-title">About me</h4>
+      <h4 class="card-title" >About me</h4>
       <p class="card-text">I am a very cheerful and communicative person. Always willing to learn and help, professional attitude. 
       </p>
     </div>
   </div>
   <div class="card">
     <div class="card-body">
-      <h4 class="card-title">Contact Me</h4>
+      <h4 class="card-title" >Contact Me</h4>
       <p class="card-text">Phone number: +447449521531</p>
       <p class="card-text">E-mail: divanova.docs.manager@gmail.com</p>
     </div>
@@ -168,7 +173,7 @@ An About Me section in the same row.-->
 </div>
 </div>
 </section>
-
+<hr class="my-4">  
 
         <!--A footer section All hyperlinks should have a hover effect.
 
@@ -176,17 +181,17 @@ All buttons should display a box shadow upon hover.-->
   <footer class="mt-auto">
     <ul class="nav justify-content-center">
           <li class="nav-item">
-              <a class="nav-link navbar-brand" href="https://github.com/DessySI" target="_blank"><img src="./assets/logo_images/github.svg"></a>
+              <a class="nav-link navbar-brand" href="https://github.com/DessySI" target="_blank" ><img src="./assets/logo_images/github.svg" title="GitHub" alt="GitHub logo"></a>
           </li>
           <li class="nav-item">
-              <a class="nav-link navbar-brand" href="https://www.linkedin.com/in/desislava-ivanova-576838256/" target="_blank"><img src="./assets/logo_images/linkedin.svg"></a>
+              <a class="nav-link navbar-brand" href="https://www.linkedin.com/in/desislava-ivanova-576838256/" target="_blank" ><img src="./assets/logo_images/linkedin.svg" title="LinkedIn" alt="LinkedIn logo"></a>
           </li>
           <li class="nav-item">
-              <a class="nav-link navbar-brand" href="https://www.facebook.com/DesislavaSergeevaIvanova" target="_blank"><img src="./assets/logo_images/facebook.svg"></a>
+              <a class="nav-link navbar-brand" href="https://www.facebook.com/DesislavaSergeevaIvanova" target="_blank"><img src="./assets/logo_images/facebook.svg"  title="Facebook" alt="Facebook logo"></a>
           </li>
     </ul>
   </footer>
-
+  <hr class="my-4">  
   </body>
 </html>
        
