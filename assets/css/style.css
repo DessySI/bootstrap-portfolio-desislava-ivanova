@@ -14,11 +14,11 @@ nav, h3 {
     text-shadow: 5px 5px 10px black;
 }
 
-nav:hover {
+a:hover {
     text-shadow: none ;
   }
 
-.card,.btn {
+a {
     text-shadow: 5px 5px 10px black;
     border: none;
 }
@@ -26,4 +26,26 @@ nav:hover {
 .navbar-brand {
     margin-bottom: 5px;
     width: 7%;
+}
+
+button:hover {
+    box-shadow: 5px 5px 15px black;
+}
+
+#profile-pic {
+    border: none;
+    margin-left: 37%;
+    text-shadow: 5px 5px 10px black;
+}
+
+#profile-text {
+
+    font-size: 18px;
+    text-shadow: 5px 5px 10px black;
+    text-align: justify;
+    width: 200%;
+}
+
+img:hover {
+    
 }
